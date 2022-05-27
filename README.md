@@ -4,7 +4,11 @@
 [![Go](https://img.shields.io/badge/Go-1.13-blue.svg)](https://golang.google.cn)
 [![star](https://img.shields.io/github/stars/Hhhha/go-websocket-sdk-go?style=social)](https://github.com/woodylan/go-websocket/stargazers)
 
-## 使用方式
+## install
+```go
+    go get github.com/Hhhha/go-websocket-sdk-go
+```
+## api
 ```go
     //  获取请求
     request := req.New("localhost:6000", "123")
