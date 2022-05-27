@@ -10,10 +10,10 @@ type closeClientResponse struct {
 	Data []string `json:"data"`
 }
 
-func (r *Request) CloseClient(systemId string) (*closeClientResponse, error) {
+func (r *Request) CloseClient(clientId string) (*closeClientResponse, error) {
 
 	params := &closeClientParams{
-		systemId,
+		clientId,
 	}
 	result := &closeClientResponse{}
 	err := r.do(closeClient, params, result)
