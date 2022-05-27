@@ -1,4 +1,4 @@
-module go-websocket-sdk-go
+module github.com/Hhhha/go-websocket-sdk-go
 
 go 1.17
 
