@@ -2,8 +2,8 @@ package req
 
 import (
 	"encoding/json"
+	"github.com/Hhhha/go-websocket-sdk-go/config"
 	"github.com/valyala/fasthttp"
-	"go-websocket-sdk-go/config"
 )
 
 type Request struct {
